@@ -71,7 +71,7 @@
                 }
             })
             .catch(err => {
-                alert("Error real: + err");
+                alert("Error real:" + err);
                 status.innerText = "Error de conexión";
             });
         }
