@@ -1,4 +1,5 @@
-<?php
+<?php error_reporting(0);
+header('Content-Type: application/json');
 // Configuración de cabeceras para que el HTML pueda leer la respuesta
 header('Content-Type: application/json');
 
