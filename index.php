@@ -71,7 +71,7 @@
                 }
             })
             .catch(err => {
-                alert("Bloqueo de Hosting: Tu plan gratuito no permite pagos.");
+                alert("Error real: + err");
                 status.innerText = "Error de conexión";
             });
         }
